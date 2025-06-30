@@ -1,0 +1,290 @@
+/* Header Styles */
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.signin-button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .mobile-nav {
+    padding: 1rem 2rem;
+    background: #f9f9f9;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .mobile-nav-link,
+  .mobile-signin-button {
+    text-decoration: none;
+    color: #333;
+  }
+  .mobile-signin-button {
+    margin-top: 1rem;
+    background-color: #1a73e8;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 4px;
+  }
+}
+body.dark {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+}
+
+body.dark a {
+  color: #a8cfff;
+}
+
+body.dark .header,
+body.dark .mobile-nav {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+body.dark .nav-link {
+  color: #ccc;
+}
+
+body.dark .nav-link:hover,
+body.dark .active {
+  color: white;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Auth Buttons */
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-link {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  color: #666;
+}
+
+.mobile-auth-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Light theme styles */
+header, nav, footer {
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+/* ✅ Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark header,
+body.dark nav,
+body.dark footer {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark a {
+  color: #90caf9;
+}
+
+body.dark button {
+  background-color: #90caf9;
+  color: #000;
+}
+/* globals.css */
+
+/* Light mode */
+:root {
+  --bg: #f9fafb;
+  --card-bg: #fff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #4f46e5;
+}
+
+/* Dark mode */
+body.dark {
+  --bg: #1f1f2e;
+  --card-bg: #2a2a3e;
+  --text: #e5e5e5;
+  --muted: #9ca3af;
+  --border: #3f3f5e;
+  --accent: #6366f1;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.card + .card {
+  margin-top: 24px;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.section-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.status-box {
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
