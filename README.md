@@ -34,9 +34,6 @@ Wakeel-Saab/
 ├── README.md # Project documentation
 └── package.json # Project config and dependencies
 
-yaml
-Copy
-Edit
 
 ---
 
