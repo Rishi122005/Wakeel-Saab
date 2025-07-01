@@ -6,43 +6,43 @@
 
 ## 📸 Preview 
 
-                                              **LANDING PAGE**
+ **LANDING PAGE**
                                               
 
 ![Screenshot 2025-07-02 014220](https://github.com/user-attachments/assets/4247bf6b-4ed4-4a05-a9ab-9326bb6e4fa6)
 
 
-                                               **CHATBOT**
+**CHATBOT**
 
 
 ![Screenshot 2025-07-02 014246](https://github.com/user-attachments/assets/6aa8e795-7ad3-4de4-83c0-a11671e4c2b1)
 
 
-                                            **LAWYER BOOKING**
+**LAWYER BOOKING**
 
 
 ![Screenshot 2025-07-02 020417](https://github.com/user-attachments/assets/25edf38f-3d09-4034-996f-c23be7eab068)
 
 
-                                            **REAL TIME NEWS**
+ **REAL TIME NEWS**
                                             
 
 ![Screenshot 2025-07-02 020530](https://github.com/user-attachments/assets/b179242f-d2bb-48ba-b1d3-e8fe21f89bbf)
 
 
-                                             **DOCUMENTS**
+**DOCUMENTS**
 
                                                 
 ![Screenshot 2025-07-02 020809](https://github.com/user-attachments/assets/b0d4bc29-6e1f-4097-8f18-0fb2b1bbc322)
 
 
-                                              **CONTRACT**
+**CONTRACT**
 
 
 ![Screenshot 2025-07-02 020821](https://github.com/user-attachments/assets/2b2035e9-be63-42ad-9fef-08aaf1aeae10)
 
 
-                                          **CLIENT'S DASHBOARD**
+**CLIENT'S DASHBOARD**
 
 
 ![image](https://github.com/user-attachments/assets/c2f80292-4aad-4080-81ec-c5debd88694d)
