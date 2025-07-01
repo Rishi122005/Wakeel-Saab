@@ -4,23 +4,60 @@
 
 ---
 
-## 📸 Demo Preview (optional GIF or image)
+## 📸 Preview 
 
-> You can insert a GIF or screenshot demo here later.
+                                              **LANDING PAGE**
+                                              
 
----
+![Screenshot 2025-07-02 014220](https://github.com/user-attachments/assets/4247bf6b-4ed4-4a05-a9ab-9326bb6e4fa6)
+
+
+                                               **CHATBOT**
+
+
+![Screenshot 2025-07-02 014246](https://github.com/user-attachments/assets/6aa8e795-7ad3-4de4-83c0-a11671e4c2b1)
+
+
+                                            **LAWYER BOOKING**
+
+
+![Screenshot 2025-07-02 020417](https://github.com/user-attachments/assets/25edf38f-3d09-4034-996f-c23be7eab068)
+
+
+                                            **REAL TIME NEWS**
+                                            
+
+![Screenshot 2025-07-02 020530](https://github.com/user-attachments/assets/b179242f-d2bb-48ba-b1d3-e8fe21f89bbf)
+
+
+                                             **DOCUMENTS**
+
+                                                
+![Screenshot 2025-07-02 020809](https://github.com/user-attachments/assets/b0d4bc29-6e1f-4097-8f18-0fb2b1bbc322)
+
+
+                                              **CONTRACT**
+
+
+![Screenshot 2025-07-02 020821](https://github.com/user-attachments/assets/2b2035e9-be63-42ad-9fef-08aaf1aeae10)
+
+
+                                          **CLIENT'S DASHBOARD**
+
+
+![image](https://github.com/user-attachments/assets/c2f80292-4aad-4080-81ec-c5debd88694d)
 
 ## 🚀 Features
 
 - 🧑‍⚖️ Browse lawyer profiles
 - 📅 Book legal appointments
 - 🔒 User authentication (Supabase)
+- 📰 Real-time legal and general news (via News API)
 - ⚡ Fast, responsive UI using Next.js & Tailwind CSS
 - 💬 Clean code structure using components and TypeScript
-- 🌐 Built-in API routes (if any)
-- 🎨 Dark/light theme-ready (optional)
+- 🌐 Built-in API routes (for secure data fetching)
+- 🎨 Dark/light theme-ready 
 
----
 
 ## 📁 Folder Structure (if using Next.js App Router)
 
@@ -35,7 +72,7 @@ Wakeel-Saab/
 └── package.json # Project config and dependencies
 
 
----
+
 
 ## 🛠️ Built With
 
@@ -47,7 +84,7 @@ Wakeel-Saab/
 - [Radix UI](https://www.radix-ui.com/) – accessible UI components
 - [Lucide Icons](https://lucide.dev/) – beautiful icons
 
----
+
 
 ## 📦 Getting Started
 
@@ -59,89 +96,42 @@ Follow these instructions to get a local copy up and running.
 - Git
 - npm or yarn
 
----
+
 
 ### 🧱 Installation
 
 #### 1. Clone the Repository
 
-```bash
 git clone https://github.com/Rishi122005/Wakeel-Saab.git
 cd Wakeel-Saab
+
 2. Install Dependencies
-bash
-Copy
-Edit
+
 npm install
 or (if using yarn)
 
-bash
-Copy
-Edit
 yarn install
+
+
 🔐 3. Create Environment Variables
 Create a file named .env.local in the root folder:
 
-bash
-Copy
-Edit
 touch .env.local
 Then open it and paste your keys (these should never be pushed to GitHub):
 
-env
-Copy
-Edit
 GROQ_API_KEY=your_groq_api_key
 NEXT_PUBLIC_SUPABASE_URL=https://your-supabase-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 Make sure .env.local is listed in .gitignore.
 
 ▶️ 4. Start the Development Server
-bash
-Copy
-Edit
+
 npm run dev
 Visit http://localhost:3000 in your browser.
-
-🧪 Testing (optional)
-Add testing info here if you use tools like Jest, Playwright, or Cypress.
-
-🖼️ Screenshots (optional)
-Create a folder like public/screens/ and save PNGs or JPGs, then reference them like:
-
-markdown
-Copy
-Edit
-![Homepage](./public/screens/home.png)
-![Appointment Page](./public/screens/book.png)
-🙋‍♂️ Contributing
-Want to contribute?
-
-Fork the repo
-
-Create your branch:
-
-bash
-Copy
-Edit
-git checkout -b feature/your-feature-name
-Make your changes and commit:
-
-bash
-Copy
-Edit
-git commit -m "Add some feature"
-Push to GitHub:
-
-bash
-Copy
-Edit
-git push origin feature/your-feature-name
-Open a Pull Request
 
 📄 License
 This project is open-source and available under the MIT License.
 
 👨‍💻 Author
-Made by Rishi Raj and Sachin Singh
+Made by Rishi Raj and Sachin Singh.
 
