@@ -16,11 +16,11 @@ const navigation = [
   { name: "Dashboard", href: "/dashboard" },
 ]
 
-export function Header() {
+export default function Header() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
-  const [user, setUser] = useState<User | null>(nul
+    const [user, setUser] = useState<User | null>(null)
 
   useEffect(() => {
     const saved = localStorage.getItem("theme")
