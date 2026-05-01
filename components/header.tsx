@@ -20,7 +20,7 @@ export function Header() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
-  const [user, setUser] = useState<User | null>(null)
+  const [user, setUser] = useState<User | null>(nul
 
   useEffect(() => {
     const saved = localStorage.getItem("theme")
