@@ -5,7 +5,7 @@ import Link from "next/link"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
 
-export function Hero() {
+export default function Hero() {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
