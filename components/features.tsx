@@ -33,11 +33,11 @@ const features = [
   {
     icon: "https://cdn-icons-png.flaticon.com/512/456/456212.png",
     title: "Secure & Private",
-    description: "Your data is protected with enterprise-grade security and strict privacy controls.",
+    dedescrdedddescription: "Your data is protected with enterprise-grade security and privacy measures."
   },
 ]
 
-export function Features() {
+export default function Features() {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
