@@ -1,1 +1,11 @@
-"use client";import { Button } from "@/components/ui/button";import Link from "next/link";import { Scale, Shield, Users } from "lucide-react";export function Hero(){return(<section className="py-20 px-4"><div className="container mx-auto text-center"><Scale className="h-16 w-16 text-primary mx-auto mb-6"/><h1 className="text-4xl md:text-6xl font-bold mb-6">Your Personal Legal Assistant</h1>h1><p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">AI-powered legal document generation, case analysis, and lawyer consultation. All in one place.</p>p><div className="flex flex-wrap justify-center gap-4"><Button asChild size="lg"><Link href="/documents">Get Started</Link>Link></Button>Button><Button variant="outline" size="lg" asChild><Link href="/how-it-works">Learn More</Link>Link></Button>Button></div>div></div>div></section>section>);}</section>
+"use client";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+export function Hero() {
+    return (
+          <section>
+                <h1>Wakeel Saab</h1>h1>
+                <Button asChild>
+                        <Link href="/documents">Get Started</Link>Link>
+                </Button>Button>
+          </sectio
